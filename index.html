@@ -1,204 +1,203 @@
 <!DOCTYPE html>
 <html lang="">
-	<head>
-		<meta charset="utf-8">
-		<title>Huw Pritchard's personal website</title>
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <head>
+        <meta charset="utf-8" />
+        <title>Huw Pritchard's personal website</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-	</head>
-		<body>
-			<header>
-				<div class="collapse bg-dark" id="navbarHeader">
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-8 col-md-7 py-4">
-								<h4 class="text-white">Huw Pritchard's personal website</h4>
-								<p class="text-muted">I'm a Software Engineer with a wide depth of knowledge, years of experience and an open-source fanatic.</p>
-							</div>
-							<div class="col-sm-4 offset-md-1 py-4">
-								<h4 class="text-white">Contact</h4>
-								<ul class="list-unstyled text-white">
-									<li>
-										Follow me on Github (<a href="https://github.com/huwdp">here</a>)
-									</li>
-									<li>
-										Email me at huw008 (at) gmail.com
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="navbar navbar-dark bg-dark shadow-sm">
-					<div class="container">
-						<a href="#" class="navbar-brand d-flex align-items-center">
-							<svg
-								xmlns="http://www.w3.org/2000/svg" width="40" height="30" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
-								<path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"/>
-							</svg>
-							<strong>Huw Pritchard's personal website</strong>
-						</a>
-						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="navbar-toggler-icon"></span>
-						</button>
-					</div>
-				</div>
-			</header>
-			<main>
-				<section>
-					<div class="alert alert-warning" role="alert">
-						<center>
-							<strong>Info:</strong> This page is built for viewers and 
-							<i>not for recruiters</i>, thanks.
-						</center>
-					</div>
-				</section>
-				<section class="jumbotron text-center">
-					<div class="container">
-						<h1>Hi there!</h1>
-						<img src="avatar.png" width="100px" />
-						<p class="lead text-muted">I'm a Software Engineer with a wide depth of knowledge, years of experience and an open-source fanatic.</p>
-                        <p><a href="https://huwdp.co.uk" class="btn btn-secondary">Old website here</a></p>
-					</div>
-					<hr />
-				</section>
-				<section>
-					<div class="container">
-						<div class="row">
-							<div class="col-md-2">
-								<h2 class="fw-light">Knowledge</h2>
-							</div>
-							<div class="col-md-10">
-								<div class="row">
-									<strong>Computing skills</strong>
-									<p>HTML, CSS, JavaScript, C#, PHP, C++, C, SQL, Git, MVC, APIs (REST) and more.</p>
-									<strong>Soft skills</strong>
-									<p>Agile methodologies, teamwork, good communication and good problem solving.</p>
-								</div>
-							</div>
-							<hr />
-						</section>
-						<section>
-							<div class="container">
-								<h2 class="fw-light">Projects</h2>
-								<div class="container">
-									<div class="row">
-										<div class="col-sm-2">
-											<strong>HuwInterpreter</strong>
-										</div>
-										<div class="col-sm-10">
-											<div class="row">
-												<strong>HuwInterpreter</strong>
-												<p>HuwInterpreter is an interpreter built in C++ for a custom language I developed named HuwCode. The project was built out of self-interest and understanding on how interpreters work and written.
-                                                The language supports 70 built in functions, custom user defined functions, scopes (each function has a scope), variables with types of double (number), string (text) and associated array.</p>
-												<p>
-													<a href="https://github.com/huwdp/huwinterpreter">Link here</a>
-												</p>
-												<hr />
-											</div>
-											<div class="row">
-												<strong>HuwInterpreter-wasm</strong>
-												<p>A slightly slimmed down version of HuwInterpreter but runs on the web. HuwInterpreter is a desktop app but has been converted to the web by the use of Emscripten, a next generation tool.</p>
-												<p>
-													<a href="https://huwdp.co.uk/huwcode-wasm/output.html">Link here</a>, 
-													<a href="https://github.com/huwdp/huwinterpreter-wasm">Repository link</a>
-												</p>
-											</div>
-										</div>
-										<hr />
-									</div>
-									<div class="row">
-										<div class="col-sm-2">
-											<strong>Flash Matrix</strong>
-										</div>
-										<div class="col-sm-10">
-											<p>This project shows feature/API support of Adobe Flash alternatives such as Shumway, Lightspark and Gnash. This tool was developed so I could visualise and gamify the development of missing APIs while developing Lightspark further.</p>
-											<p>
-												<a href="https://huwdp.github.io/Flash-Matrix/">Link here</a>
-											</p>
-										</div>
-										<hr />
-									</div>
-									<div class="row">
-										<div class="col-sm-2">
-											<strong>Pathfinding</strong>
-										</div>
-										<div class="col-sm-10">
-											<p>
-												<a href="https://github.com/huwdp/pathfinding_benchmark">https://github.com/huwdp/pathfinding_benchmark</a> - Benchmark and visualiser for various pathfinding algorithms.
-											</p>
-											<p>
-												<a href="https://github.com/huwdp/pathfinding">https://github.com/huwdp/pathfinding</a> - Simple C++ pathfinding project that includes A* and Dijsktra algorithms.
-											</p>
-										</div>
-										<hr />
-									</div>
-									<div class="row">
-										<div class="col-sm-2">
-											<strong>Other projects</strong>
-										</div>
-										<div class="col-sm-10">
-											<p>
-												<a href="https://github.com/huwdp/HuwOpenGL3DExperiment">HuwOpenGL3DExperiment</a> - Experimental sandbox project for learning 3D graphics, OpenGL API, pathfinding, collision, physics and more. 
-												<strong>(in progress)</strong>
-											</p>
-											<p>
-												<a href="https://github.com/huwdp/as3-tests">as3-tests</a> - Test cases for reverse engineering Adobe Flash ActionScript 3 APIs (features) for <a href="https://github.com/lightspark/lightspark">Lightspark</a>.
-											</p>
-											<p>
-												<a href="https://github.com/huwdp/PlaneAI">PlaneAI</a> - AI project designed to detect and label pictures of aircraft. <strong>(in slow progress)</strong>
-											</p>
-											<p>
-												<a href="https://github.com/huwdp/HCalc">HCalc</a> - HCalc is an Reverse Polish notation calculator written in C++ and Qt. This is an earlier attempt to create an interpreter for evaluating math expressions.
-											</p>
-											<p>
-												<a href="https://github.com/huwdp/galleryviewerassignment1">galleryviewerassignment1</a> - Gallery Viewer and admin panel written in PHP, MySQL and Symphony framework. 
-												<strong>(Archived)</strong>
-											</p>
-											<p>
-												<a href="https://github.com/huwdp/ASPProject1">ASPProject1</a> - Simple Online shop with products, a basket and an admin backend. 
-												<strong>(Archived)</strong>
-											</p>
-											<p>
-												<a href="https://github.com/huwdp/CSharpLoginWebSystem">CSharpLoginWebSystem</a> - A sample C# .NET Core MVC project with login functionality. This project integrates with EntityFramework and identity, and has clean easy to read code. 
-												<strong>(Archived)</strong>
-											</p>
-										</div>
-									</div>
-									<hr />
-								</div>
-							</div>
-						</section>
-						<section>
-							<div class="container">
-								<h2 class="fw-light">Contributions</h2>
-								<div class="container">
-									<div class="row">
-										<div class="col-sm-2">
-											<strong>Lightspark</strong>
-										</div>
-										<div class="col-sm-10">
-											<div class="row">
-												<p>Lightspark is an open source implementation of Adobe Flash. I have implemented numerous missing APIs, the effort has allowed some flash files such as games to run within Lightspark. </p>
-												<p>
-													<a href="https://github.com/lightspark/lightspark">Link here</a>
-												</p>
-											</div>
-										</div>
-										<hr />
-									</div>
-									<div class="row">
-										<div class="col-sm-2">
-											<strong>Other</strong>
-										</div>
-										<div class="col-sm-10">
-											<p>Mesa Matrix - Added link to Nouveau feature matrix.</p>
-											<p>I donate monthly to <a href="https://ruffle.rs">Ruffle</a>, <a href="http://serenityos.org/">SerenityOS</a>, and <a href="https://www.patreon.com/renerebe">Renerebe</a>, a YouTuber.
-											</div>
-										</div>
-									</div>
-								</div>
-							</section>
-						</main>
-					</body>
+    </head>
+    <body>
+        <header>
+            <div class="collapse bg-dark" id="navbarHeader">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-7 py-4">
+                            <h4 class="text-white">Huw Pritchard's personal website</h4>
+                            <p class="text-muted">I'm a Software Engineer with a wide depth of knowledge, years of experience and an open-source fanatic.</p>
+                        </div>
+                        <div class="col-lg-4 offset-md-1 py-4">
+                            <h4 class="text-white">Contact</h4>
+                            <ul class="list-unstyled text-white">
+                                <li>Follow me on Github (<a href="https://github.com/huwdp">here</a>)</li>
+                                <li>
+                                    Email me at huw008 (at) gmail.com
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar navbar-dark bg-dark shadow-sm">
+                <div class="container">
+                    <a href="#" class="navbar-brand d-flex align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+                            <path
+                                d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"
+                            />
+                        </svg>
+                        <strong>Huw Pritchard's personal website</strong>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section>
+                <div class="alert alert-warning" role="alert">
+                    <center><strong>Info:</strong> This page is built for viewers and <i>not for recruiters</i>, thanks.</center>
+                </div>
+            </section>
+            <section class="jumbotron text-center">
+                <div class="container">
+                    <h1>Hi there!</h1>
+                    <img src="avatar.png" width="100px" />
+                    <p class="lead text-muted">I'm a Software Engineer with a wide depth of knowledge, years of experience and an open-source fanatic.</p>
+                </div>
+                <hr />
+            </section>
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <h2 class="fw-light">Knowledge</h2>
+                        </div>
+                        <div class="col-lg-10">
+                            <div class="row">
+                                <strong>Computing skills</strong>
+                                <p>HTML, CSS, JavaScript, C#, PHP, C++, C, SQL, Git, MVC, APIs (REST) and more.</p>
+                                <strong>Soft skills</strong>
+                                <p>Agile methodologies, teamwork, good communication and good problem solving.</p>
+                            </div>
+                        </div>
+                        <hr />
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container">
+                    <h2 class="fw-light">Projects</h2>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <strong>HuwInterpreter</strong>
+                            </div>
+                            <div class="col-lg-10">
+                                <div class="row">
+                                    <strong>HuwInterpreter</strong>
+                                    <p>
+                                        HuwInterpreter is an interpreter built in C++ for a custom language I developed named HuwCode. The project was built out of self-interest and understanding on how interpreters work and written. The
+                                        language supports 70 built in functions, custom user defined functions, scopes (each function has a scope), variables with types of double (number), string (text) and associated array.
+                                    </p>
+                                    <p>
+                                        <a href="https://github.com/huwdp/huwinterpreter">Link here</a>
+                                    </p>
+                                    <hr />
+                                </div>
+                                <div class="row">
+                                    <strong>HuwInterpreter-wasm</strong>
+                                    <p>A slightly slimmed down version of HuwInterpreter but runs on the web. HuwInterpreter is a desktop app but has been converted to the web by the use of Emscripten, a next generation tool.</p>
+                                    <p>
+                                        <a href="https://huwdp.co.uk/huwcode-wasm/output.html">Link here</a>,
+                                        <a href="https://github.com/huwdp/huwinterpreter-wasm">Repository link</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <hr />
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <strong>Flash Matrix</strong>
+                            </div>
+                            <div class="col-lg-10">
+                                <p>
+                                    This project shows feature/API support of Adobe Flash alternatives such as Shumway, Lightspark and Gnash. This tool was developed so I could visualise and gamify the development of missing APIs while
+                                    developing Lightspark further.
+                                </p>
+                                <p>
+                                    <a href="https://huwdp.github.io/Flash-Matrix/">Link here</a>
+                                </p>
+                            </div>
+                            <hr />
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <strong>Pathfinding</strong>
+                            </div>
+                            <div class="col-lg-10">
+                                <p><a href="https://github.com/huwdp/pathfinding_benchmark">https://github.com/huwdp/pathfinding_benchmark</a> - Benchmark and visualiser for various pathfinding algorithms.</p>
+                                <p><a href="https://github.com/huwdp/pathfinding">https://github.com/huwdp/pathfinding</a> - Simple C++ pathfinding project that includes A* and Dijsktra algorithms.</p>
+                            </div>
+                            <hr />
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <strong>Other projects</strong>
+                            </div>
+                            <div class="col-lg-10">
+                                <p>
+                                    <a href="https://github.com/huwdp/HuwOpenGL3DExperiment">HuwOpenGL3DExperiment</a> - Experimental sandbox project for learning 3D graphics, OpenGL API, pathfinding, collision, physics and more.
+                                    <strong>(in progress)</strong>
+                                </p>
+                                <p>
+                                    <a href="https://github.com/huwdp/as3-tests">as3-tests</a> - Test cases for reverse engineering Adobe Flash ActionScript 3 APIs (features) for
+                                    <a href="https://github.com/lightspark/lightspark">Lightspark</a>.
+                                </p>
+                                <p><a href="https://github.com/huwdp/PlaneAI">PlaneAI</a> - AI project designed to detect and label pictures of aircraft. <strong>(in slow progress)</strong></p>
+                                <p>
+                                    <a href="https://github.com/huwdp/HCalc">HCalc</a> - HCalc is an Reverse Polish notation calculator written in C++ and Qt. This is an earlier attempt to create an interpreter for evaluating math
+                                    expressions.
+                                </p>
+                                <p>
+                                    <a href="https://github.com/huwdp/galleryviewerassignment1">galleryviewerassignment1</a> - Gallery Viewer and admin panel written in PHP, MySQL and Symphony framework.
+                                    <strong>(Archived)</strong>
+                                </p>
+                                <p>
+                                    <a href="https://github.com/huwdp/ASPProject1">ASPProject1</a> - Simple Online shop with products, a basket and an admin backend.
+                                    <strong>(Archived)</strong>
+                                </p>
+                                <p>
+                                    <a href="https://github.com/huwdp/CSharpLoginWebSystem">CSharpLoginWebSystem</a> - A sample C# .NET Core MVC project with login functionality. This project integrates with EntityFramework and identity,
+                                    and has clean easy to read code.
+                                    <strong>(Archived)</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <hr />
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container">
+                    <h2 class="fw-light">Contributions</h2>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <strong>Lightspark</strong>
+                            </div>
+                            <div class="col-lg-10">
+                                <div class="row">
+                                    <p>Lightspark is an open source implementation of Adobe Flash. I have implemented numerous missing APIs, the effort has allowed some flash files such as games to run within Lightspark.</p>
+                                    <p>
+                                        <a href="https://github.com/lightspark/lightspark">Link here</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <hr />
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <strong>Other</strong>
+                            </div>
+                            <div class="col-lg-10">
+                                <p>Mesa Matrix - Added link to Nouveau feature matrix.</p>
+                                <p>I donate monthly to <a href="https://ruffle.rs">Ruffle</a>, <a href="http://serenityos.org/">SerenityOS</a>, and <a href="https://www.patreon.com/renerebe">Renerebe</a>, a YouTuber.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
 </html>
